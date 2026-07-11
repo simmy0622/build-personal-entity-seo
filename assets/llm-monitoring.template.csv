@@ -1,0 +1,5 @@
+date,platform,channel,query,fresh_session,correct_person,cited_official_profile,citation_urls,wrong_person,wrong_gender,false_facts,notes
+,Example Platform,entity-layer,Who is Example Public Name?,yes,,,,,,,
+,DeepSeek,indexed-web-search,示例姓名是谁？,yes,,,,,,,
+,Example Platform,entity-layer,Who is Example Latin Name?,yes,,,,,,,
+,DeepSeek,indexed-web-search,示例误写 Organization,yes,,,,,,,misspelling/homonym test

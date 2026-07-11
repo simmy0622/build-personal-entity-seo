@@ -1,0 +1,5 @@
+status,source_type,domain,page_title,url,published_date,name_text,links_to_official_profile,independent_domain,verified_at,notes
+owned,official-profile,example.com,Example Person Profile,https://example.com/about,,示例姓名,yes,no,,canonical source
+planned,event-or-hackathon,,,,,,,yes,,
+planned,interview-or-podcast,,,,,,,yes,,
+planned,edited-article-or-case-study,,,,,,,yes,,

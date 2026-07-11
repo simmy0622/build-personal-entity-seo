@@ -1,0 +1,4 @@
+interface:
+  display_name: "Personal Entity SEO"
+  short_description: "Build person SEO and LLM entity visibility"
+  default_prompt: "Use $build-personal-entity-seo to audit and improve my personal website entity SEO."

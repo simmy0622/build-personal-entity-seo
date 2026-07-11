@@ -1,0 +1,50 @@
+{
+  "siteUrl": "https://example.com",
+  "personId": "https://example.com/#person",
+  "correctName": "示例姓名",
+  "commonMisspellings": ["示例误写"],
+  "profilePages": [
+    {
+      "path": "/about",
+      "titleIncludes": "示例姓名",
+      "h1Includes": "示例姓名",
+      "canonical": "https://example.com/about",
+      "hreflangs": {
+        "zh-CN": "https://example.com/about",
+        "en": "https://example.com/en/about",
+        "x-default": "https://example.com/about"
+      }
+    },
+    {
+      "path": "/en/about",
+      "titleIncludes": "Example Public Name",
+      "h1Includes": "Example Public Name",
+      "canonical": "https://example.com/en/about",
+      "hreflangs": {
+        "zh-CN": "https://example.com/about",
+        "en": "https://example.com/en/about",
+        "x-default": "https://example.com/about"
+      }
+    }
+  ],
+  "sitemapPath": "/sitemap.xml",
+  "expectedSitemapUrlCount": 2,
+  "robotsPath": "/robots.txt",
+  "llmsPath": "/llms.txt",
+  "legacyRedirects": [
+    {
+      "from": "/old-about",
+      "to": "/about"
+    }
+  ],
+  "bots": [
+    "Googlebot",
+    "Bingbot",
+    "OAI-SearchBot",
+    "GPTBot",
+    "PerplexityBot",
+    "ClaudeBot",
+    "Baiduspider",
+    "Bytespider"
+  ]
+}

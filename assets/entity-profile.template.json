@@ -1,0 +1,51 @@
+{
+  "personId": "https://example.com/#person",
+  "siteUrl": "https://example.com",
+  "names": {
+    "primary": "Example Public Name",
+    "native": "示例姓名",
+    "latin": "Example Latin Name",
+    "aliases": ["Example Public Name", "示例姓名", "Example Latin Name"],
+    "commonMisspellings": ["示例误写"]
+  },
+  "gender": {
+    "schema": "https://schema.org/Male",
+    "native": "男",
+    "en": "male",
+    "pronouns": "he/him"
+  },
+  "notConfusedWith": [
+    {
+      "label": { "native": "不是 [Homonym A]", "en": "Not [Homonym A]" },
+      "detail": {
+        "native": "一句话说明为何不是同一人，并给出区分依据（组织、城市、职业等）。",
+        "en": "One sentence explaining why this is a different person, with distinguishing facts."
+      }
+    }
+  ],
+  "headline": {
+    "native": "Builder & Founder / Example Organization 创始人",
+    "en": "Builder & Founder / Founder of Example Organization"
+  },
+  "shortBio": {
+    "native": "经过核实的简短人物简介。",
+    "en": "A short, verified person biography."
+  },
+  "officialProfiles": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/example"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "https://example.org/#organization",
+      "name": "Example Organization",
+      "url": "https://example.org",
+      "relationship": "founder"
+    }
+  ],
+  "verifiedProjects": [],
+  "unavailableProjects": [],
+  "updatedAt": "2026-01-15"
+}
